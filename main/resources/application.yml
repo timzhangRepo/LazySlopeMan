@@ -1,0 +1,16 @@
+prompts:
+  getBestSkiDaysPrompt: >
+    "Given the following weather data, rank the best skiing days based on fresh snowfall. 
+    If a period contains ‘Night’ in its name, its snowfall accumulation should be considered for the following day’s skiing conditions. 
+    Prioritize days where there is significant overnight snowfall leading to a powder day, or where fresh snow falls during the day without extreme weather conditions. 
+    If there is heavy snowfall at night and clear weather during the day, that is considered a prime powder day. However, snowfall during the day can still contribute to good skiing conditions. 
+    Return the ranking as a JSON array of exactly 7 numbers, representing the best skiing days in descending order of quality (first is the best, last is the worst)."
+resorts:
+  snowbird:
+    site: "https://www.snowbird.com/the-mountain/mountain-report/current-conditions-weather"
+    gridCoordinates:
+      gridX: 108
+      gridY: 166
+
+weather:
+  api: https://api.weather.gov/gridpoints/SLC/GPS/forecast
