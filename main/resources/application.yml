@@ -14,3 +14,9 @@ resorts:
 
 weather:
   api: https://api.weather.gov/gridpoints/SLC/GPS/forecast
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://skiman:mafgyQ-gefkez-minpu7@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
+      database: Ski

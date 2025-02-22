@@ -91,11 +91,24 @@ eed in the pojos ->
 Let AI to determine based on a system message -> Give it a ranking from 0 - 10
 
 ## 
-Now with the ranked pojos, and feed into the MongoDB finish up the process 
-
+Now with the ranked pojos, and feed into the MongoDB finish up the process
 I don't think i fucking need RAG today?
 
-
 https://github.com/langchain4j/langchain4j-examples/blob/5c5fc14613101a84fe32b39200e30701fec45194/other-examples/src/main/java/OtherServiceExamples.java#L27
-
 https://github.com/langchain4j/langchain4j-examples/blob/main/other-examples/src/main/java/embedding/classification/EmbeddingModelTextClassifierExample.java
+
+##
+Pull Data from Weather API, and train an Sklearn model using the normalized data
+API weather information, probabaly gonna load a couple G? probabaly
+
+
+
+
+
+## Pull MongoDB 
+
+
+
+
+
+

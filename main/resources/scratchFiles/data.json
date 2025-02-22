@@ -1,0 +1,19 @@
+{
+  "number": 14,
+  "name": "Friday",
+  "startTime": "2025-02-28T06:00:00-07:00",
+  "endTime": "2025-02-28T18:00:00-07:00",
+  "isDaytime": true,
+  "temperature": 42,
+  "temperatureUnit": "F",
+  "temperatureTrend": "",
+  "probabilityOfPrecipitation": {
+    "unitCode": "wmoUnit:percent",
+    "value": null
+  },
+  "windSpeed": "9 mph",
+  "windDirection": "NW",
+  "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+  "shortForecast": "Mostly Sunny",
+  "detailedForecast": "Mostly sunny, with a high near 42."
+}

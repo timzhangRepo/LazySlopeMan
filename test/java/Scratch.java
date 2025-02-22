@@ -23,7 +23,6 @@ public class Scratch {
     public void testMyMethod() {
         // Call the method you want to test677429
         // Print the result (optional)
-
     }
     @Test
     public void getWeatherData(){
@@ -33,4 +32,5 @@ public class Scratch {
     public void analyzeWeatherData(){
         weatherSentimentController.analyzeWeatherData();
     }
+
 }

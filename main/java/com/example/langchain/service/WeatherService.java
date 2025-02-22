@@ -18,9 +18,6 @@ public class WeatherService {
     ApiService apiService;
     // Constructor - Ensure Singleton & allow baseUrl injection
 
-
-
-
     public WeatherService(ApiService apiService) {
         this.apiService = apiService;
     }
@@ -34,6 +31,9 @@ public class WeatherService {
         String response = apiService.get(requestURL);
         logger.info("Weather data response received");
         logger.info(response);
+
+
+
         return response;
     }
 }
